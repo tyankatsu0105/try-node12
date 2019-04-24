@@ -6,7 +6,8 @@
   "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node --experimental-modules src/index.mjs"
+    "esmodules": "node --experimental-modules esmodules/index.mjs",
+    "class": "node class-private/index.js"
   },
   "engines": 
   {
